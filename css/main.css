@@ -1,0 +1,228 @@
+:root {
+    --primary-color-light: #fbc834;
+    --primary-color-light-hover: #d990e2b8;
+    --primary-color-dark: #6d3103;
+    --primary-color-dark-hover: #aaaaaa;
+    --primary-color-contrast: #67b38f;
+    --primary-color-text: #f3f3f3;
+    /* --primary-color-text: #ded8d8; */
+}
+
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+html {
+    background-color: var(--primary-color-light);
+    color: var(--primary-color-dark);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.mega-container {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.logo-container {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    margin: 10px;
+}
+
+.spotter-container {
+    width: 60%;
+}
+
+.info-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    padding: 1%;
+    background-color: #e685578c;
+    border-radius: 10px;
+}
+
+.description-container {
+    width: 100%;
+    height: 5%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.description-text {
+    padding: 1%;
+    background-color: #e685578c;
+    border-radius: 10px;
+}
+
+.image-input-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.link-input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.submit-button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.75em;
+}
+
+.submit-button-main {
+    background-color: #44bd44;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    font-size: 2em;
+    border: 0px;
+}
+
+.result-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.map-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    background-color: grey;
+}
+
+.map-container {
+    width:420px;
+    margin: 10px;
+}
+
+.submit-button-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.message-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.message {
+    padding: 1%;
+    background-color: #e685578c;
+    border-radius: 10px;
+}
+
+.info-box {
+    width: 80%;
+    height: 70%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #a0cce8;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    height: 15%;
+    font-size: 1.2em;
+    background-color: #a1cbe8;
+    border-radius: 10px;
+}
+
+.animal-info-container {
+    height: 85%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.animal-info {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    background-color: gainsboro;
+    border-right-style: solid;
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+}
+
+.animal-img {
+    width: 27%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.animal-name {
+    width: 70%;
+    height: 100%;
+}
